@@ -10,7 +10,7 @@
   Training and Deployment will be made using SageMaker. Please read Files section below for more information.
 
 ## Requirements to run Notebook:
-torch==1.4.0
+torch==1.4.0 <br>
 torchvision==0.5.0
 numpy==1.19.5
 pandas==1.1.5
