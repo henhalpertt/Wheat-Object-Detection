@@ -64,7 +64,7 @@ Predictions are made on test images in test folder. Please refer to Kaggle compe
 Example of prediction - image was taken from test folder:
 
 ![Alt text](img_with_boxes.jpg?raw=true "Title" width="300" height="350")
-
+<img src="img_with_boxes.jpg" alt="drawing" width="200"/>
 
 
 
