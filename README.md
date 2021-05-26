@@ -14,6 +14,12 @@ Dataset can be dowloaded from here:
  ![Alt text](sample.png?raw=true "Title")
   
  Training and Deployment made using SageMaker. Please read Files section below for more information.
+ 
+ ## Goal
+ 
+ Detecting wheat heads in images and evaluating the performance of the model. 
+ 
+ ![Alt text](targets-sample.png?raw=true "Title")
 
 ## Requirements to run Notebook:
 torch==1.4.0 <br>
@@ -54,11 +60,6 @@ USing Fast R-CNN-ResNet50-FPN pretrained PyTorch model on 994 images from origin
 Predictions are made on test images in test folder. Please refer to Kaggle competition website to view and download the images, or use Kaggle API:
 - LINK: https://www.kaggle.com/c/global-wheat-detection/data
 - kaggle competitions download -c global-wheat-detection
-
-![Alt text](targets-sample.png?raw=true "Title")
-
-
-
 
 
 
