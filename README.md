@@ -6,8 +6,10 @@
   The Global Wheat Head Dataset is led by nine research institutes from seven countries: the University of Tokyo, Institut national de recherche pour l’agriculture, l’alimentation et l’environnement, Arvalis, ETHZ, University of Saskatchewan, University of Queensland, Nanjing Agricultural University, and Rothamsted Research. The training set includes 3422 images. The test set contains only 10 images. For the purposes of this project, I will only use a subset of images from the training set. 1105 images were randomly chosen from the original dataset for training(90%, 994 images) and validation (10%, 111 images). Each image contains at least one wheat head, and is in .jpg format. The training/validation datasets will be loaded in batches using PyTorch DataLoader method.
   
   Wheat is a staple across the globe, which is why this competition must account for different growing conditions. Models developed for wheat phenotyping need to be able to generalize between environments. If successful, researchers can accurately estimate the density and size of wheat heads in different varieties. With improved detection farmers can better assess their crops, ultimately bringing cereal, toast, and other favorite dishes to your table.
+ 
+ ![Alt text](sample.png?raw=true "Title")
   
-  Training and Deployment will be made using SageMaker. Please read Files section below for more information.
+  Training and Deployment made using SageMaker. Please read Files section below for more information.
 
 ## Requirements to run Notebook:
 torch==1.4.0 <br>
