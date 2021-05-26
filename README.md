@@ -32,7 +32,8 @@ Wheat-Object-Detection/<br>
 │   ├── predict.py<br>
 │   └── train.py<br>
 └── train.csv<br> <br>
-train.csv - contains image_id, width and height of image (1024x1024), boundary boxes for all images, format: [x, y, box-width, box-height], and source of image. <br>
+train.csv - contains image_id, width and height of image (1024x1024), <br>
+boundary boxes for all images,format: **[x, y, box-width, box-height]**, and source of image. <br>
 source/ contains all necessary files to train and deploy using SageMaker <br>
 front/ contains the front end - an html file to upload an image  <br>
 img_with_boxes.jpg - an example of prediction that was saved <br>
