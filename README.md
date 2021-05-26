@@ -11,11 +11,12 @@
 
 ## Requirements to run Notebook:
 torch==1.4.0 <br>
-torchvision==0.5.0
-numpy==1.19.5
-pandas==1.1.5
-Pillow==8.1.0
-sagemaker==2.41.0
+torchvision==0.5.0 <br>
+numpy==1.19.5 <br>
+pandas==1.1.5 <br>
+Pillow==8.1.0 <br>
+sagemaker==2.41.0 <br>
+opencv-python==4.5.1
 
 ## Files:
 Wheat-Object-Detection/
