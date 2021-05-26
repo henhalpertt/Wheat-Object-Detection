@@ -19,17 +19,17 @@ sagemaker==2.41.0 <br>
 opencv-python==4.5.1
 
 ## Files:
-Wheat-Object-Detection/ <br>
-├── README.md <br>
-├── front <br>
-│   └── my_front.html <br>
-├── img_with_boxes.jpg <br>
-├── model.ipynb <br>
-├── requirements.txt <br>
-├── source <br>
-│   ├── predict.py <br>
-│   └── train.py <br>
-└── train.csv <br>
+Wheat-Object-Detection/<br>
+├── README.md<br>
+├── front<br>
+│   └── my_front.html<br>
+├── img_with_boxes.jpg<br>
+├── model.ipynb<br>
+├── requirements.txt<br>
+├── source<br>
+│   ├── predict.py<br>
+│   └── train.py<br>
+└── train.csv<br> <br>
 train.csv - contains image_id, width and height of image (1024x1024), boundary boxes for all images, format: [x, y, box-width, box-height], and source of image. <br>
 source/ contains all necessary files to train and deploy using SageMaker <br>
 front/ contains the front end - an html file to upload an image  <br>
