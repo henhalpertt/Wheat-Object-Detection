@@ -61,6 +61,10 @@ Predictions are made on test images in test folder. Please refer to Kaggle compe
 - LINK: https://www.kaggle.com/c/global-wheat-detection/data
 - kaggle competitions download -c global-wheat-detection
 
+Example of prediction - image was taken from test folder:
+
+![Alt text](img_with_boxes.jpg?raw=true "Title")
+
 
 
 
