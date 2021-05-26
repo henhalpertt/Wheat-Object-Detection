@@ -16,9 +16,8 @@ Dataset can be dowloaded from here:
  Training and Deployment made using SageMaker. Please read Files section below for more information.
  
  ## Goal
- 
- Detecting wheat heads in images and evaluating the performance of the model. 
- 
+ Attempting to predict bounding boxes around each wheat head in images.
+
  ![Alt text](targets-sample.png?raw=true "Title")
 
 ## Requirements to run Notebook:
